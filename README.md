@@ -6,6 +6,7 @@ youtube原来视频地址，C语言开发环境 Visual Studio，
 现在改为VS Code开发环境，对前端更友好。
 
 ///////////////////////////////////////////////////////////
+
 安装环境
 
 npm init
@@ -17,12 +18,15 @@ npm run dev
 ///////////////////////////////////////////////////////////
 
 搭建vite环境
+
 1、npm init -y
 
 #package.json
+
 scripts改为:"dev": "vite"
 
 2、安装vite：npm i vite -D
+
 （建议node版本V14以上）
 
 若无ts环境，安装：npm install -g typescript
