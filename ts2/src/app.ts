@@ -1,7 +1,14 @@
+var engine:GL.Engine;
+
 window.onload = function () {
 
-    let e = new GL.Engine();
+    engine = new GL.Engine();
 
-    e.start()
+    engine.start()
     
+}
+
+window.onresize = function () {
+    engine.resize();
+    console.log(1501)
 }

@@ -15,7 +15,6 @@ namespace GL {
             } else {
                 canvas = document.createElement("canvas") as HTMLCanvasElement;
                 document.body.appendChild(canvas);
-
             }
 
             gl = canvas.getContext("webgl");

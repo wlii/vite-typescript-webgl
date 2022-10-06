@@ -21,5 +21,12 @@ namespace GL {
             gl.clear(gl.COLOR_BUFFER_BIT);
             requestAnimationFrame(this.loop.bind(this))
         }
+
+        public resize(): void {
+            if (this._canvas !== undefined) {
+                this._canvas.width = window.innerWidth;
+                this._canvas.height = window.innerHeight;
+            }
+        }
     }
 }
