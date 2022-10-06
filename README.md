@@ -2,8 +2,10 @@
 ///////////////////////////////////////////////////////////
 
 https://www.youtube.com/watch?v=Hi3vyJQbULk&list=PLv8Ddw9K0JPiTHLMQw31Yh4qyTAcHRnJx
-youtube原来视频地址，C语言开发环境 Visual Studio，
-现在改为VS Code开发环境，对前端更友好。
+
+youtube原来视频地址，C语言开发环境 Visual Studio,
+
+现在改为VS Code开发环境,对前端更友好.
 
 ///////////////////////////////////////////////////////////
 
