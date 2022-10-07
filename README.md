@@ -38,3 +38,33 @@ scripts改为:"dev": "vite"
 # 合并ts为js
 
 tsc --out main.js ***.ts ***.ts ***.ts
+
+
+////////////////////////////////////////////
+
+#index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="./main.js"></script>
+    <style>
+        html, body {padding: 0;margin: 0;overflow: hidden; }
+        canvas {width: 100%;height: 100%;} 
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
+
+////////////////////////////////////////////
+
+#ts3 命令
+
+tsc --out main.js ./src/app.ts ./src/engine.ts ./src/core/gl.ts ./src/core/shader.ts
+
