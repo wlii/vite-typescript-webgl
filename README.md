@@ -82,6 +82,8 @@ ts3 编译命令
 
 tsc --out main.js ./src/app.ts ./src/engine.ts ./src/core/gl.ts ./src/core/shader.ts
 
+显示：
+
 <div align="center">
   <img src="https://github.com/wlii/vite-typescript-webgl-plugin/blob/main/assets/ts3.png">
 </div>
