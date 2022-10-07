@@ -3,9 +3,7 @@
 
 https://www.youtube.com/watch?v=Hi3vyJQbULk&list=PLv8Ddw9K0JPiTHLMQw31Yh4qyTAcHRnJx
 
-youtube原来视频地址，C语言开发环境 Visual Studio,
-
-现在改为VS Code开发环境,对前端更友好.
+youtube原视频地址，C语言开发环境 Visual Studio, 现在跟着视频重写为VS Code开发环境,对前端更友好。
 
 ///////////////////////////////////////////////////////////
 
@@ -75,6 +73,22 @@ tsc --out main.js ***.ts ***.ts ***.ts
 </body>
     
 </html>
+
+//----------------------------章节摘要---------------------------------//
+
+# ts1
+
+///////ts1 编译命令/////////////////////////////////////
+
+tsc --out ./src/main.js ./src/app.ts
+
+
+# ts2
+
+///////ts2 编译命令/////////////////////////////////////
+
+tsc --out ./src/main.js ./src/engine.ts ./src/gl.ts ./src/app.ts
+
 
 # ts3
 
