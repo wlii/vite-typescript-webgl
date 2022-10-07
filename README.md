@@ -109,3 +109,7 @@ tsc --out main.js ./src/app.ts ./src/engine.ts ./src/core/gl.ts ./src/core/shade
 抽象出了:glBuffer.ts
 
 编译命令：tsc --out main.js ./src/app.ts ./src/engine.ts ./src/core/gl.ts ./src/core/shader.ts ./src/core/glBuffer.ts
+
+<div align="center">
+  <img src="https://github.com/wlii/vite-typescript-webgl-plugin/blob/main/assets/ts4.png">
+</div>
