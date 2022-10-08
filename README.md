@@ -113,6 +113,9 @@ tsc --out main.js ./src/app.ts ./src/engine.ts ./src/core/gl.ts ./src/core/shade
   <img src="https://github.com/wlii/vite-typescript-webgl-plugin/blob/main/assets/ts4.png">
 </div>
 
+
+# ts4 改写为import引入
+
 ///////ts4 改写为import引入////////////////////////////
 
 
