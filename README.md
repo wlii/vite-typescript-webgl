@@ -1,8 +1,4 @@
-# TypeScript WebGL Game Engine Tutorial
-
-youtube原视频地址：https://www.youtube.com/watch?v=Hi3vyJQbULk&list=PLv8Ddw9K0JPiTHLMQw31Yh4qyTAcHRnJx
-
-C开发环工具 Visual Studio, 现在跟着视频重写为VS Code开发环境，对前端更友好。
+# TypeScript WebGL
 
 ///////////////////////////////////////////////////////////
 
@@ -114,7 +110,7 @@ tsc --out main.js ./src/app.ts ./src/engine.ts ./src/core/gl.ts ./src/core/shade
 </div>
 
 
-# ts4 改写为import引入
+# ts4 各个模块引入改写为import引入
 
 ///////ts4 改写为import引入////////////////////////////
 
