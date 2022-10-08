@@ -112,3 +112,8 @@ tsc --out main.js ./src/app.ts ./src/engine.ts ./src/core/gl.ts ./src/core/shade
 <div align="center">
   <img src="https://github.com/wlii/vite-typescript-webgl-plugin/blob/main/assets/ts4.png">
 </div>
+
+///////ts4 改写为import引入////////////////////////////
+
+
+将namespace改为import引入类，index.html直接引入ts文件，免执行编译命令，自动监听保存后自动刷新页面。
