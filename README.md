@@ -115,3 +115,9 @@ tsc --out main.js ./src/app.ts ./src/engine.ts ./src/core/gl.ts ./src/core/shade
 ///////ts4 改写为import引入////////////////////////////
 
 将namespace改为import引入类，index.html直接引入ts文件，免执行编译命令，自动监听保存后自动刷新页面。
+
+# ts6
+
+///////ts6////////////////////////////
+
+改变视口：gl.viewport(-1, 1, 1, -1);
